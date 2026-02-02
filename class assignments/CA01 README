@@ -1,0 +1,74 @@
+CA01: Exploratory Data Analysis – House Price Analysis
+Overview
+
+This assignment focuses on performing Exploratory Data Analysis (EDA) and data cleaning on a housing price dataset. The goal is to thoroughly understand the structure, quality, and relationships within the data and prepare it for future machine learning model development. Model building itself is out of scope for this assignment
+
+Dataset
+
+The dataset contains housing attributes that may be predictive of a property's sale price. For this assignment, only the training dataset is used.
+
+Files provided:
+
+house-price-train.csv (used for EDA and data cleaning)
+
+house-price-test.csv (not used in this assignment)
+
+Data description text file
+
+Training data source:
+
+https://github.com/ArinB/MSBA-CA-Data/raw/main/CA01/house-price-train.csv
+
+
+Objectives
+
+The main objectives of this assignment are to:
+
+Understand the structure, domain, and contents of the dataset
+
+Identify and document data quality issues
+
+Apply appropriate data cleaning techniques
+
+Analyze multicollinearity and perform basic feature selection
+
+Assignment Structure
+Part 1: Data Understanding
+
+Univariate, bivariate, and multivariate analysis
+
+Exploratory visualizations
+
+Identification of missing values, outliers, and inconsistencies
+
+Creation of a Data Quality Report summarizing identified issues
+
+Part 2: Data Cleaning & Pre-Processing
+
+Handling missing values
+
+Treating outliers
+
+Encoding categorical variables (if applicable)
+
+Ensuring the dataset is analytics-ready
+
+Part 3: Post-Processing (Collinearity Analysis)
+
+Visualization of feature correlations
+
+Identification of highly collinear variables
+
+Recommendation of features to drop, if necessary
+
+Note: Class imbalance analysis is not required for this assignment.
+
+Tools & Libraries
+
+Python
+
+pandas, numpy
+
+matplotlib, seaborn
+
+Jupyter Notebook
