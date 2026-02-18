@@ -1,0 +1,48 @@
+# ---------- OS FILES ----------
+.DS_Store
+Thumbs.db
+
+# ---------- PYTHON ----------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# ---------- IDE / EDITORS ----------
+.vscode/
+.idea/
+
+# ---------- DATA FILES ----------
+# keep small sample data only
+data/raw/
+data/intermediate/
+*.sqlite
+*.db
+
+# ---------- MODEL FILES ----------
+*.pkl
+*.joblib
+*.h5
+*.model
+*.pt
+
+# ---------- LOGS ----------
+*.log
+
+# ---------- ENV / SECRETS ----------
+.env
+.env.*
+config.yaml
+secrets.json
+credentials.json
+
+# ---------- TEMP ----------
+*.swp
+*.tmp
